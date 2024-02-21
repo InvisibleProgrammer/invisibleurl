@@ -1,0 +1,11 @@
+GET http://localhost:8080/dashboard
+
+###
+
+GET http://localhost:8080
+
+
+###
+
+GET http://localhost:8080/blog
+
