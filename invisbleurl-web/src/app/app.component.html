@@ -1,6 +1,12 @@
 
 <main >
   The best url shortener ever
+
+  <ul>
+    <li *ngFor="let dashboardItem of dashboardItems">
+      {{ dashboardItem.longUrl }} - {{ dashboardItem.shortUrl }}
+    </li>
+  </ul>
 </main>
 
 <router-outlet />

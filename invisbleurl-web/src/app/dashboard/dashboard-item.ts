@@ -1,4 +1,4 @@
-type DashboardItem = {
+export type DashboardItem = {
   longUrl: string;
   shortUrl: string
 }
