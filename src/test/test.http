@@ -1,0 +1,17 @@
+### health check
+
+GET http://localhost:8080/actuator/health
+
+###
+
+GET http://localhost:8080/actuator/beans
+
+###
+
+POST http://localhost:8080/sign-up
+content-type: application/json
+
+{
+    "email": "test@test.com",
+    "password": "12Debrecen99!"
+}
