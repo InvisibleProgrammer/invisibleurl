@@ -8,7 +8,7 @@ GET http://localhost:8080/actuator/beans
 
 ###
 
-POST http://localhost:8080/sign-up
+POST http://localhost:8080/user/sign-up
 content-type: application/json
 
 {

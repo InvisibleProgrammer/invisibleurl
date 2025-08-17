@@ -18,7 +18,7 @@ public class WebSecurityConfiguration {
                 .authorizeHttpRequests(
                 authorizationManagerRequestMatcherRegistry ->
                         authorizationManagerRequestMatcherRegistry
-                                .requestMatchers("/sign-up").permitAll()
+                                .requestMatchers("/user/sign-up").permitAll()
                                 .requestMatchers("/actuator/health").permitAll()
                                 .anyRequest().authenticated()
         );
