@@ -14,8 +14,8 @@ public class SecurityConfiguration {
                 .authorizeHttpRequests(
                     auth ->
                         auth
-                                .requestMatchers("/actuator/**").permitAll()
-                                .anyRequest().authenticated()
+                            .requestMatchers("/actuator/**").permitAll()
+                            .anyRequest().authenticated()
                 ).build();
     }
 }
